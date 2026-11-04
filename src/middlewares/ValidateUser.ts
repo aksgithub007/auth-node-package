@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import { UnauthorizeError } from "../errors/UnauthorizeError";
+import { UnauthorizeError } from "error-common";
 
 export const validateUser = (
   req: Request,

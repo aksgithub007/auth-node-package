@@ -4,6 +4,9 @@ import jwt from "jsonwebtoken";
 declare global {
   namespace Express {
     interface Request {
+      session?: {
+        token?: string;
+      };
       currentUser?: {
         id: string;
         name: string;
