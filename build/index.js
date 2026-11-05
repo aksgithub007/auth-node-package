@@ -16,3 +16,4 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./middlewares/UserDetails"), exports);
 __exportStar(require("./middlewares/ValidateUser"), exports);
+__exportStar(require("./middlewares/ValidAdmin"), exports);
