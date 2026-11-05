@@ -11,7 +11,8 @@ declare global {
         id: string;
         name: string;
         email: string;
-      };
+        role: string;
+      } | null;
     }
   }
 }
@@ -20,6 +21,7 @@ interface JwtPayload {
   id: string;
   name: string;
   email: string;
+  role: string;
 }
 
 export const userDetails = async (
